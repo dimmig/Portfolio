@@ -13,3 +13,11 @@
   list-style-image: url("../../photos/highlighted-arrow.svg");
   padding: 0 10%;
 }
+
+@media screen and (max-width: 500px) {
+  .web-achivs-li {
+    width: 70vw;
+    height: max-content;
+    margin: 5vh 0;
+  }
+}

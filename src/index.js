@@ -63,7 +63,7 @@ window.addEventListener("scroll", () =>
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <ContextManager.Provider value={animate}>
+  <ContextManager.Provider value={{ animate }}>
     <App />
   </ContextManager.Provider>
 );

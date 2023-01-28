@@ -22,7 +22,9 @@ export const Header = () => {
   return (
     <div className="base-el">
       <div className="menu">
-        <p className="menu-item item-1">Home</p>
+        <p className="menu-item item-1" id="menu-home">
+          Home
+        </p>
         <p
           className="menu-item item-2"
           onClick={() => seeMore(document.getElementById("about-content"))}
@@ -45,8 +47,11 @@ export const Header = () => {
       <div className="preview">
         <div className="main-text-block">
           <h1>
-            Hi there, I'm <span className="highlighted-name">Dima</span> and I'm
-            a javascript frontend-developer
+            {window.innerWidth < 500 ? "Hi," : "Hi there,"} I'm{" "}
+            <span className="highlighted-name">Dima</span> and I'm a{" "}
+            {window.innerWidth < 500
+              ? "JS developer"
+              : "javascript frontend-developer"}
           </h1>
         </div>
         <div className="profile-photo">

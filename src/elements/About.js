@@ -39,7 +39,7 @@ export const About = () => {
           className="traits-block transperent animatable"
           id="traits-card"
         >
-          <h2 className="characteristic-header">Personal traits</h2>
+          <h2 className="characteristic-header traits-header">Personal traits</h2>
           <TraitCard image={laptopIcon} traits={TRAITS_DATA.slice(0, 3)} />
           <TraitCard image={bulbIcon} traits={TRAITS_DATA.slice(3, 6)} />
           <TraitCard image={checkpointIcon} traits={TRAITS_DATA.slice(6, 9)} />

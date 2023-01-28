@@ -17,8 +17,11 @@ export const Faq = () => {
             <div className="inputs ">
               <input className="faq-input" placeholder="Email" />
               <input className="faq-input" placeholder="Message" />
+              <button className="submit-btn animatable transperent mobile">
+                Submit
+              </button>
             </div>
-            <button className="submit-btn animatable transperent">
+            <button className="submit-btn animatable transperent desktop">
               Submit
             </button>
           </div>

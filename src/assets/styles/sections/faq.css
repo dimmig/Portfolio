@@ -67,3 +67,22 @@
 .submit-btn:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+  .faq {
+    width: 100vw;
+  }
+
+  .mobile {
+    display: block;
+    margin: 0;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .form {
+    margin-bottom: 5%;
+  }
+}

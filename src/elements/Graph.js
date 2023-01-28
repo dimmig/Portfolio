@@ -9,19 +9,19 @@ export const TecnicalSkillsGraph = () => {
           <div className="graph-data">
             <p className="item-name">CSS</p>
           </div>
-          <div className="graph-column sql" />
+          <div className="graph-column css" />
         </div>
         <div>
           <div className="graph-data">
             <p className="item-name">REACT</p>
           </div>
-          <div className="graph-column js" />
+          <div className="graph-column react" />
         </div>
         <div>
           <div className="graph-data">
             <p className="item-name">JS</p>
           </div>
-          <div className="graph-column react" />
+          <div className="graph-column js" />
         </div>
         <div>
           <div className="graph-data">

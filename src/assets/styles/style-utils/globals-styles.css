@@ -49,3 +49,19 @@ ul {
   height: 0.5px;
   font-weight: thin;
 }
+
+@media screen and (max-width: 500px) {
+  html {
+    width: 100vw;
+  }
+
+  .base-el {
+    min-width: 100vw;
+    padding: 0;
+  }
+
+  .content-selector {
+    width: 90vw;
+    margin: 5vh 5%;
+  }
+}

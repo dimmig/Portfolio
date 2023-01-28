@@ -36,8 +36,8 @@
   align-items: center;
 }
 
-.sql {
-  width: 60%;
+.css {
+  width: 70%;
   animation: 0.5s ease 0s graph;
 }
 
@@ -76,5 +76,26 @@
   100% {
     transform: scaleX(1);
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .html {
+    width: 100%;
+  }
+
+  .js {
+    width: 90%;
+    margin-bottom: 1vh;
+  }
+
+  .react {
+    width: 90%;
+    margin-bottom: 1vh;
+  }
+
+  .css {
+    width: 80%;
+    margin-bottom: 1vh;
   }
 }
