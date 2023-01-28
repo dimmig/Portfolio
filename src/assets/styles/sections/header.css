@@ -1,0 +1,87 @@
+.highlighted-name {
+  color: var(--highlighted);
+  animation: 0.5s ease 0s borderTransition;
+  border-bottom: 4px solid var(--highlighted);
+}
+
+@keyframes borderTransition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 24px;
+  font-family: var(--cuprum);
+}
+
+.menu-item {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+}
+
+.menu-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.1s ease-out;
+}
+
+.menu-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.main-text-block {
+  max-width: 50%;
+  min-width: 350px;
+}
+
+.main-text-block h1 {
+  font-family: var(--alumni);
+  font-size: 96px;
+  font-weight: 400;
+}
+
+.portfile-image img {
+  border-radius: 50%;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10% 0 5%;
+}
+
+.header-btn h2 {
+  font-family: var(--cuprum);
+  font-size: 48px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}

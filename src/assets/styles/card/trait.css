@@ -1,0 +1,31 @@
+.trait-card {
+  width: 320px;
+  height: 120px;
+  /* background: var(--card-color); */
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin: 5% 0;
+}
+
+.trait-card img {
+  padding: 10%;
+}
+
+.traits-list {
+  padding: 0;
+  list-style: none;
+}
+.trait-li::before {
+  content: "\2022";
+  color: var(--highlighted);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.trait-li {
+  font-family: var(--alumni);
+  font-size: 32px;
+}

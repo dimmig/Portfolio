@@ -1,0 +1,39 @@
+.abilities {
+  height: max-content;
+}
+.section-header {
+  font-family: var(--alumni);
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 4px solid #fff;
+  width: max-content;
+}
+
+.traits-block {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.characteristic-header {
+  font-family: var(--cuprum);
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 0;
+  width: max-content;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills {
+  margin-bottom: 5%;
+}
+
+.chart {
+  margin: 0;
+  padding-left: 5%;
+}

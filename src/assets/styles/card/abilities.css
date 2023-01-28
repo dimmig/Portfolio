@@ -1,0 +1,15 @@
+.web-achivs-li {
+  font-family: var(--alumni);
+  font-size: 24px;
+  width: max-content;
+  height: 30px;
+  box-shadow: var(--box-shadow);
+  gap: 5%;
+  margin: 30px 0;
+  padding: 0 5%;
+}
+
+.web-list {
+  list-style-image: url("../../photos/highlighted-arrow.svg");
+  padding: 0 10%;
+}

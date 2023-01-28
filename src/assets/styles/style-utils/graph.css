@@ -1,0 +1,80 @@
+.graph-block {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding-left: 15%;
+}
+
+.graph {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item-name {
+  margin: 0;
+  width: max-content;
+  font-family: var(--alumni);
+  font-size: 20px;
+}
+
+.graph-column {
+  position: relative;
+  margin-top: auto;
+  height: 5px;
+  width: 80%;
+  box-shadow: var(--box-shadow);
+  border-top: 2px solid var(--highlighted);
+  display: flex;
+  flex-direction: column;
+}
+
+.graph-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sql {
+  width: 60%;
+  animation: 0.5s ease 0s graph;
+}
+
+.js {
+  width: 80%;
+  animation: 0.5s ease 0.25s graph;
+}
+
+.react {
+  width: 80%;
+  animation: 0.5s ease 0.5s graph;
+}
+
+.html {
+  width: 90%;
+  animation: 0.5s ease 0.75s graph;
+}
+
+.inner-column {
+  width: inherit;
+  height: 5px;
+  background-color: var(--box-shadow);
+  margin-top: auto;
+}
+
+.inner-column p {
+  text-align: center;
+}
+
+@keyframes graph {
+  0% {
+    transform: scaleX(0);
+    opacity: 0%;
+  }
+
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}

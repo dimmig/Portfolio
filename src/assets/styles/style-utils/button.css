@@ -1,0 +1,29 @@
+.show-more-btn {
+  width: 235px;
+  height: 55px;
+  outline: none;
+  background-color: var(--button-bg);
+  border: 1px solid #fff;
+  color: white;
+  font-family: var(--alumni);
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.show-more-btn:hover {
+  background-color: var(--bg-color);
+}
+
+.show-more-btn:hover > img {
+  transform: rotate(0deg);
+}
+
+.button-arrow {
+  transition: all 0.1s ease;
+  transform: rotate(-90deg);
+}
