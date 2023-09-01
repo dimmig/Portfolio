@@ -10,16 +10,13 @@ export const Faq = () => {
           <h1 className="section-header questions  animatable transperent">
             Questions left?
           </h1>
-          <p className="title-subtext  animatable transperent">
-            Contact me then
-          </p>
+
           <div className="form animatable transperent">
             <div className="inputs">
-              <input className="faq-input" placeholder="Email" />
-              <input className="faq-input" placeholder="Message" />
-              <button className="submit-btn  mobile">Submit</button>
+              <a href="mailto:galagan.dm@gmai.com">
+                <button className="submit-btn  desktop">Contact me</button>
+              </a>
             </div>
-            <button className="submit-btn  desktop">Submit</button>
           </div>
         </div>
       </div>

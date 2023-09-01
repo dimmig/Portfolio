@@ -56,7 +56,6 @@
 }
 
 .submit-btn {
-  margin-top: 55px;
   width: 200px;
   height: 44px;
   min-width: 100px;
@@ -81,16 +80,6 @@
   .faq {
     width: 100vw;
   }
-
-  .mobile {
-    display: block;
-    margin: 0;
-  }
-
-  .desktop {
-    display: none;
-  }
-
   .form {
     margin-bottom: 5%;
   }
