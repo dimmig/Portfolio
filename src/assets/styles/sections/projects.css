@@ -17,11 +17,31 @@
   align-items: center;
 }
 
+.blurred-bg {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  filter: blur(2px);
+}
+
+.json-validator {
+  background-image: url("../../photos/json-logic\ validator.png");
+}
+
+.near-sps {
+  background-image: url("../../photos/near-sps.png");
+}
+
+.web-market {
+  background-image: url("../../photos/web-market.png");
+}
+
 .project-item-name {
-  position: absolute;
   font-family: var(--alumni);
   font-size: 48px;
   font-weight: 400;
+  color: #fff;
   margin: 0;
   top: 5%;
 }
@@ -31,7 +51,7 @@
   bottom: 10%;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 1040px) {
   .projects {
     display: flex;
     flex-direction: column;

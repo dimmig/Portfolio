@@ -5,7 +5,7 @@ export const TraitCard = (props) => {
   const { image, traits } = props;
 
   return (
-    <div className="trait-card transperent animatable">
+    <div className="trait-card">
       <img src={image} alt="laptop" />
       <ul className="traits-list">
         {traits.map((trait, i) => (

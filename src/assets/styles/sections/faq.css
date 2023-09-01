@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.mobile {
+  display: none;
+}
+
 .form {
   display: flex;
   flex-direction: row;
@@ -66,9 +70,14 @@
 
 .submit-btn:hover {
   cursor: pointer;
+  background-color: #d0bb88;
 }
 
-@media screen and (max-width: 500px) {
+.submit-btn:active {
+  background-color: #d0b679;
+}
+
+@media (max-width: 500px) {
   .faq {
     width: 100vw;
   }

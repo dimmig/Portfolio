@@ -11,11 +11,11 @@ export const TRAITS_DATA = [
 ];
 
 export const WEB_ABILITIES = [
-  "Have 3 year-experience in web development",
+  "Have 2 year-experience in web development",
   "Have thorough understanding how JS works",
   "Have experience with Node.js and express.js",
   "Fluent with different APIs, especially with REST",
-  "Made big amount of different pet-projects",
+  "Made lots of pet projects ",
   "Love creating websites with  React.js",
 ];
 

@@ -47,11 +47,8 @@ export const Header = () => {
       <div className="preview">
         <div className="main-text-block">
           <h1>
-            {window.innerWidth < 500 ? "Hi," : "Hi there,"} I'm{" "}
-            <span className="highlighted-name">Dima</span> and I'm a{" "}
-            {window.innerWidth < 500
-              ? "JS developer"
-              : "javascript frontend-developer"}
+            Hi there, I'm {" "}
+            <span className="highlighted-name">Dima</span>
           </h1>
         </div>
         <div className="profile-photo">

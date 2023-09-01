@@ -38,22 +38,27 @@
 
 .css {
   width: 70%;
-  animation: 0.5s ease 0s graph;
+  animation: 0.5s ease 0.75s graph-css;
 }
 
 .js {
   width: 80%;
-  animation: 0.5s ease 0.25s graph;
+  animation: 0.5s ease 0.25s graph-js;
 }
 
 .react {
   width: 80%;
-  animation: 0.5s ease 0.5s graph;
+  animation: 0.5s ease 0s graph-react;
 }
 
 .html {
   width: 90%;
-  animation: 0.5s ease 0.75s graph;
+  animation: 0.5s ease 0.5s graph-html;
+}
+
+.rust {
+  width: 65%;
+  animation: 0.5s ease 1s graph-rust;
 }
 
 .inner-column {
@@ -67,19 +72,67 @@
   text-align: center;
 }
 
-@keyframes graph {
+@keyframes graph-css {
   0% {
-    transform: scaleX(0);
-    opacity: 0%;
+    width: 0;
+    opacity: 0;
   }
 
   100% {
-    transform: scaleX(1);
+    width: 70%;
     opacity: 1;
   }
 }
 
-@media screen and (max-width: 500px) {
+@keyframes graph-js {
+  0% {
+    width: 0;
+    opacity: 0%;
+  }
+
+  100% {
+    width: 80%;
+    opacity: 1;
+  }
+}
+
+@keyframes graph-rust {
+  0% {
+    width: 0;
+    opacity: 0%;
+  }
+
+  100% {
+    width: 65%;
+    opacity: 1;
+  }
+}
+
+@keyframes graph-react {
+  0% {
+    width: 0;
+    opacity: 0%;
+  }
+
+  100% {
+    width: 80%;
+    opacity: 1;
+  }
+}
+
+@keyframes graph-html {
+  0% {
+    width: 0;
+    opacity: 0%;
+  }
+
+  100% {
+    width: 90%;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 500px) {
   .html {
     width: 100%;
   }

@@ -1,6 +1,12 @@
+html body {
+  margin: 0;
+  overflow-x: hidden;
+  min-width: 280px;
+}
+
 :root {
-  --bg-color: #4d99b1;
-  --highlighted: #ead191;
+  --bg-color: #85BAFA;
+  --highlighted: #ffd6a5;
   --button-bg: #3c5a6e;
   --alumni: "Alumni Sans";
   --cuprum: "Cuprum";
@@ -28,15 +34,14 @@ ul {
 }
 
 .base-el {
-  padding: 0 5%;
   color: #fff;
   animation: 0.5s ease 0s menu-onload;
-  min-width: 1280px;
 }
 
 .title-block {
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .whole-animation {
@@ -50,7 +55,7 @@ ul {
   font-weight: thin;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   html {
     width: 100vw;
   }

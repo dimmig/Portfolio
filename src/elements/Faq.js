@@ -14,16 +14,12 @@ export const Faq = () => {
             Contact me then
           </p>
           <div className="form animatable transperent">
-            <div className="inputs ">
+            <div className="inputs">
               <input className="faq-input" placeholder="Email" />
               <input className="faq-input" placeholder="Message" />
-              <button className="submit-btn animatable transperent mobile">
-                Submit
-              </button>
+              <button className="submit-btn  mobile">Submit</button>
             </div>
-            <button className="submit-btn animatable transperent desktop">
-              Submit
-            </button>
+            <button className="submit-btn  desktop">Submit</button>
           </div>
         </div>
       </div>

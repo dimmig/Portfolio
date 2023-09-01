@@ -19,30 +19,35 @@ export const About = () => {
       </div>
 
       <div className="about-content scrolled" id="about-content">
-        <div
-          className="abilities transperent animatable"
-          id="web-abilities-card"
-        >
-          <h2 className="characteristic-header">Web abilities</h2>
-          <AbilitiesCard abilities={WEB_ABILITIES} />
-        </div>
+        <div className="about-wrapper animatable">
+          <div
+            className="abilities transperent animatable"
+            id="web-abilities-card"
+          >
+            <h2 className="characteristic-header">Web abilities</h2>
+            <AbilitiesCard abilities={WEB_ABILITIES} />
+          </div>
 
-        <div
-          className="abilities transperent animatable"
-          id="other-abilities-card"
-        >
-          <h2 className="characteristic-header">Other abilities</h2>
-          <AbilitiesCard abilities={OTHER_ABILITIES} />
+          <div
+            className="abilities transperent animatable"
+            id="other-abilities-card"
+          >
+            <h2 className="characteristic-header">Other abilities</h2>
+            <AbilitiesCard abilities={OTHER_ABILITIES} />
+          </div>
         </div>
-
-        <div
-          className="traits-block transperent animatable"
-          id="traits-card"
-        >
-          <h2 className="characteristic-header traits-header">Personal traits</h2>
-          <TraitCard image={laptopIcon} traits={TRAITS_DATA.slice(0, 3)} />
-          <TraitCard image={bulbIcon} traits={TRAITS_DATA.slice(3, 6)} />
-          <TraitCard image={checkpointIcon} traits={TRAITS_DATA.slice(6, 9)} />
+        <div className="traits-block transperent animatable" id="traits-card">
+          <h2 className="characteristic-header traits-header">
+            Personal traits
+          </h2>
+          <div className="traits-list-wrapper">
+            <TraitCard image={laptopIcon} traits={TRAITS_DATA.slice(0, 3)} />
+            <TraitCard image={bulbIcon} traits={TRAITS_DATA.slice(3, 6)} />
+            <TraitCard
+              image={checkpointIcon}
+              traits={TRAITS_DATA.slice(6, 9)}
+            />
+          </div>
         </div>
       </div>
       <div className="skills transperent animatable" id="graph">

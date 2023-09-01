@@ -27,3 +27,8 @@
   transition: all 0.1s ease;
   transform: rotate(-90deg);
 }
+
+.href-btn {
+  display: flex;
+  justify-content: center;
+}

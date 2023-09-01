@@ -7,10 +7,7 @@ import "./assets/styles/index.css";
 export const ContextManager = createContext(null);
 
 const animate = (elements, delay) => {
-  const slide = [
-    { transform: "translateX(-10%)", opacity: "0" },
-    { transform: "translateX(0)", opacity: "1" },
-  ];
+  const slide = [{ opacity: "0" }, { opacity: "1" }];
 
   const options = {
     duration: 500,
@@ -19,12 +16,10 @@ const animate = (elements, delay) => {
   };
 
   for (const el of elements) {
-    options.delay += 100;
-
     el.animate(slide, options);
     setTimeout(() => {
       el.classList.remove("transperent");
-    }, 500);
+    }, 300);
   }
 
   if (elements[0].parentElement.id === "about-content") {

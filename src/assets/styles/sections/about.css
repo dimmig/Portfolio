@@ -27,6 +27,14 @@
 .about-content {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 5rem;
+  gap: 10rem;
 }
 
 .skills {
@@ -38,7 +46,40 @@
   padding-left: 5%;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 1340px) {
+  .about-content {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .about-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .abilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .traits-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .traits-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1040px) {
   .section-header {
     margin: 1vh 0;
   }
@@ -48,10 +89,24 @@
     padding: 0 5%;
   }
 
+  .traits-list-wrapper {
+    flex-direction: column;
+  }
+
+  .about-wrapper {
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+  }
+
   .about-content {
     flex-direction: column;
     padding: 0 5%;
     margin-bottom: 5vw;
+  }
+
+  .traits-header {
+    text-align: center;
   }
 
   .traits-block {
