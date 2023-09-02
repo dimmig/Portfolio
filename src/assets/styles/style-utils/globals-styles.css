@@ -5,9 +5,9 @@ html body {
 }
 
 :root {
-  --bg-color: #85BAFA;
-  --highlighted: #ffd6a5;
-  --button-bg: #3c5a6e;
+  --bg-color: #85bafa;
+  --highlighted: #ffc98f;
+  --button-bg: #ff918f;
   --alumni: "Alumni Sans";
   --cuprum: "Cuprum";
   --card-color: rgba(94, 144, 160, 0.5);
@@ -31,6 +31,10 @@ ul {
 
 .transperent {
   opacity: 0;
+}
+
+.header {
+  height: 100vh;
 }
 
 .base-el {

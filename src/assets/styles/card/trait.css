@@ -1,8 +1,7 @@
 .trait-card {
   width: 320px;
   height: 120px;
-  /* background: var(--card-color); */
-  box-shadow: var(--box-shadow);
+  box-shadow: 0 0 4px #fff;
   display: flex;
   align-items: center;
   gap: 5%;

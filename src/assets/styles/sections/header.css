@@ -67,7 +67,10 @@
 }
 
 .portfile-image img {
-  border-radius: 50%;
+  border: 1px solid #fff;
+  box-shadow: 0 0 8px #fff;
+  width: 250px;
+  height: 322px;
 }
 
 .header-btn {
@@ -122,7 +125,7 @@
   }
 
   .portfile-image img {
-    width: 50vw;
+    /* width: 50vw; */
     min-width: 200px;
     margin-bottom: 10%;
   }
@@ -133,7 +136,7 @@
   }
 
   .main-text-block h1 {
-    font-size: calc(12px + 3rem)
+    font-size: calc(12px + 3rem);
   }
 
   .header-btn {

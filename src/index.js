@@ -10,7 +10,7 @@ const animate = (elements, delay) => {
   const slide = [{ opacity: "0" }, { opacity: "1" }];
 
   const options = {
-    duration: 500,
+    duration: 600,
     iterations: 1,
     delay: delay,
   };
