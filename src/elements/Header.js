@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ContextManager } from "..";
-import profilePhoto from "../assets/photos/portfile-photo.png";
+import profilePhoto from "../assets/photos/portfile-photo.jpg";
 import arrow from "../assets/photos/arrow.svg";
 import "../assets/styles/sections/header.css";
 import "../assets/styles/style-utils/button.css";
